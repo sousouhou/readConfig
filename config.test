@@ -1,0 +1,17 @@
+
+; comments, begins with ';' or '#'.
+; [ key = value    # ...comments...   ]    <- this comments is not recommended.
+
+[section]
+path=C:/users
+ClassPath=./realPath
+
+# the parameters of the PSO 
+N=100 
+w = 0.4 
+c1= 0.5
+c2 =0.5
+maxIteration = 1000
+
+
+
