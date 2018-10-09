@@ -19,7 +19,7 @@ S. Song <leadingsong@outlook.com>
 
 
 # License
-This software is released under BSD License.
+This software is released under MIT License.
 See LICENSE for full informations.
 
 
