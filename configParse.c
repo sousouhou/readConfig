@@ -8,7 +8,7 @@
 int GetConfigStr(char configFile[], char sKey[], char resValue[])
 {
     FILE * fp;
-    char sLine[500] = "\0";
+    char sLine[2000] = "\0";
     
     fp = fopen(configFile, "r");
     if(fp == NULL) 
@@ -31,7 +31,7 @@ int GetConfigStr(char configFile[], char sKey[], char resValue[])
         {
             char buff[100] = "\0";
             char readKey[100] = "\0";
-            char readValue[100] = "\0";
+            char readValue[1900] = "\0";
             
             // buff may contains space
             sscanf(sLine, "%[^=]=%s", buff, readValue );
