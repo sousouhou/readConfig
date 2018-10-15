@@ -18,7 +18,7 @@ int GetConfigStr(char configFile[], char sKey[], char resValue[])
     }    
     
     
-    while( fgets (sLine, 490, fp)!=NULL ) 
+    while( fgets (sLine, 1990, fp)!=NULL ) 
     {
         // skip commets.
         if( '#'==sLine[0] ||  ';'==sLine[0] )
