@@ -15,7 +15,7 @@ Current version is 1.0.
 
 
 # Author 
-S. Song <leadingsong@outlook[dot]com>
+S. Song 
 
 
 # License
